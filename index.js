@@ -1,8 +1,6 @@
 function isPalindrome(str) {
 return str === str.split('').reverse().join('');
 }
-
-window.isPalindrome = isPalindrome;
 /* 
   Add your pseudocode here
 */
